@@ -58,11 +58,11 @@
 				sqlStatement="SELECT LAST_INSERT_ID()"></generatedKey>
 		</table> --> 
 		
-		<table tableName="user" domainObjectName="User"
+		<table tableName="t_image" domainObjectName="Image"
 			enableCountByExample="false" enableUpdateByExample="false"
 			enableDeleteByExample="false" enableSelectByExample="false"
 			selectByExampleQueryId="false">
-			<generatedKey column="id" identity="true"
+			<generatedKey column="image_id" identity="true"
 				sqlStatement="SELECT LAST_INSERT_ID()"></generatedKey>
 		</table>
 		
